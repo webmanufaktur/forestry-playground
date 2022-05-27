@@ -5,11 +5,16 @@ admin_path:
 webhook_url: 
 sections:
 - type: heading
-  label: Projects
-- type: heading
   label: Pages
 - type: heading
   label: Posts
+- type: directory
+  path: ''
+  label: Posts
+  create: all
+  match: "**/*"
+- type: heading
+  label: Projects
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
