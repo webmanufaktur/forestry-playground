@@ -39,6 +39,13 @@ sections:
   match: "**/*"
   templates:
   - jobs
+- type: directory
+  path: src/books
+  label: Books
+  create: documents
+  match: "**/*"
+  templates:
+  - book
 upload_dir: src/assets/uploads
 public_path: "/uploads"
 front_matter_path: ''
