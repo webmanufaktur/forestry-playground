@@ -97,6 +97,21 @@ fields:
   label: Group
 - name: repeatgroup
   type: field_group_list
+  fields:
+  - name: repeattitle
+    type: text
+    config:
+      required: false
+    label: repeattitle
+  - name: repeattext
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: repeattext
   config:
     min: 
     max: 
