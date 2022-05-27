@@ -4,10 +4,6 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- type: document
-  path: src/books/**/*
-  label: Books
-  match: "**/*"
 - type: heading
   label: Content
 - type: directory
@@ -43,6 +39,9 @@ sections:
   match: "**/*"
   templates:
   - jobs
+- type: document
+  path: src/books/**/*
+  label: Books
 upload_dir: src/assets/uploads
 public_path: "/uploads"
 front_matter_path: ''
