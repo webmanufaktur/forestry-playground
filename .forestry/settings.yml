@@ -9,10 +9,10 @@ sections:
 - type: heading
   label: Posts
 - type: directory
-  path: ''
+  path: posts
   label: Posts
   create: all
-  match: posts/**/*
+  match: "**/*"
 - type: heading
   label: Projects
 upload_dir: uploads
