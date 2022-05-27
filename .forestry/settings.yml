@@ -7,33 +7,33 @@ sections:
 - type: heading
   label: Content
 - type: directory
-  path: posts
+  path: src/posts
   label: Posts
   create: documents
   match: "**/*"
   templates:
   - post
 - type: directory
-  path: pages
+  path: src/pages
   label: Pages
   create: documents
   match: "**/*"
   templates:
   - page
 - type: directory
-  path: projects
+  path: src/projects
   label: Projects
   create: documents
   match: "**/*"
 - type: directory
-  path: references
+  path: src/references
   label: Reference
   create: documents
   match: "**/*"
   templates:
   - reference
 - type: directory
-  path: jobs
+  path: src/jobs
   label: Jobs
   create: documents
   match: "**/*"
