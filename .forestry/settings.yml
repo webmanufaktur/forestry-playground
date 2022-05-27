@@ -12,7 +12,7 @@ sections:
   path: ''
   label: Posts
   create: all
-  match: "**/*"
+  match: posts/**/*
 - type: heading
   label: Projects
 upload_dir: uploads
