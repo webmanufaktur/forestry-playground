@@ -11,7 +11,8 @@ sections:
   label: Posts
   create: all
   match: "**/*"
-
+  templates:
+  - post
 - type: heading
   label: Pages
 - type: directory
@@ -19,7 +20,6 @@ sections:
   label: Pages
   create: all
   match: "**/*"
-
 - type: heading
   label: Projects
 - type: directory
@@ -27,7 +27,6 @@ sections:
   label: Projects
   create: all
   match: "**/*"
-
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
