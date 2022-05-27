@@ -25,6 +25,22 @@ sections:
   label: Projects
   create: documents
   match: "**/*"
+- type: directory
+  path: references
+  label: Reference
+  create: documents
+  match: "**/*"
+  templates:
+  - reference
+- type: directory
+  path: jobs
+  label: Jobs
+  create: documents
+  match: "**/*"
+  templates:
+  - jobs
+
+
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
