@@ -20,6 +20,8 @@ sections:
   label: Pages
   create: all
   match: "**/*"
+  templates:
+  - page
 - type: heading
   label: Projects
 - type: directory
