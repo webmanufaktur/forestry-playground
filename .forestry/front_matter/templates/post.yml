@@ -16,6 +16,89 @@ fields:
     date_format: 
     time_format: 
     display_utc: false
+- name: textarea
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Textarea
+- name: number
+  type: number
+  label: Number
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+- name: toggle
+  type: boolean
+  label: Toggle
+- name: select
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Select
+- name: color
+  type: color
+  label: Color
+  config:
+    required: false
+    color_format: Hex
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
+- name: sortable
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: Sortable
+- name: imagefile
+  type: file
+  config:
+    maxSize: 64
+  label: imagefile
+- name: gallerymulti
+  type: image_gallery
+  config: {}
+  label: gallerymulti
+- name: group
+  type: field_group
+  config: {}
+  label: Group
+- name: repeatgroup
+  type: field_group_list
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: RepeatGroup
+- name: blocks
+  type: blocks
+  label: Blocks
+  template_types: []
+  config:
+    min: 
+    max: 
+- name: include
+  type: include
+  config: {}
+  template: post
+  label: Include
 pages:
 - posts/post-in-folder-test.md
 - posts/post-in-folder-test.md
