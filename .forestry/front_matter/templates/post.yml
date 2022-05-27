@@ -16,5 +16,14 @@ fields:
     date_format: 
     time_format: 
     display_utc: false
+- name: body
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Body
 pages:
 - title.md
