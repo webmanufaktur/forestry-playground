@@ -79,6 +79,21 @@ fields:
 - name: group
   type: field_group
   config: {}
+  fields:
+  - name: grouptitle
+    type: text
+    config:
+      required: false
+    label: grouptitle
+  - name: grouptext
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: grouptext
   label: Group
 - name: repeatgroup
   type: field_group_list
