@@ -7,7 +7,6 @@ sections:
 - type: document
   path: ''
   label: Various
-  match: "**/*"
 - type: heading
   label: Pages
 - type: heading
