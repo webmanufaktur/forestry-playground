@@ -94,11 +94,6 @@ fields:
   config:
     min: 
     max: 
-- name: include
-  type: include
-  config: {}
-  template: post
-  label: Include
 pages:
 - posts/post-in-folder-test.md
 - posts/post-in-folder-test.md
