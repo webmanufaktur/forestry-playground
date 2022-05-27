@@ -22,9 +22,10 @@ gallerymulti:
 - "/uploads/justicedepartment.jpg"
 - "/uploads/index.jpg"
 - "/uploads/debian-wallpaper-1.jpg"
-group: {}
-repeatgroup:
-- {}
+group:
+  grouptitle: asdasd
+  grouptext: "123123"
+repeatgroup: []
 blocks: []
 
 ---
