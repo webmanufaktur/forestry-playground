@@ -25,7 +25,11 @@ gallerymulti:
 group:
   grouptitle: asdasd
   grouptext: "123123"
-repeatgroup: []
+repeatgroup:
+- repeattitle: "1212"
+  repeattext: asas
+- repeattitle: assa
+  repeattext: "1212"
 blocks: []
 
 ---
