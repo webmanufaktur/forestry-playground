@@ -35,6 +35,10 @@ blocks:
   title: Buchtitel
   body: Buchbeschreibung
   cover: "/uploads/debian-wallpaper.jpg"
+- template: book
+  title: book 2
+  body: book desc 2
+  cover: "/uploads/index.jpg"
 
 ---
 Bacon ipsum dolor amet chicken flank shankle pork loin kevin ham hock landjaeger frankfurter brisket short ribs. Shoulder short loin buffalo meatloaf, spare ribs sausage salami pork belly chislic. Picanha chislic ham hock, short loin porchetta short ribs bacon pastrami sausage filet mignon brisket landjaeger. Drumstick ham filet mignon, capicola turkey pork belly bresaola picanha porchetta hamburger alcatra ground round short loin sirloin.
