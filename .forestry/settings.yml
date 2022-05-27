@@ -4,8 +4,6 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- type: heading
-  label: Posts
 - type: directory
   path: posts
   label: Posts
@@ -13,8 +11,6 @@ sections:
   match: "**/*"
   templates:
   - post
-- type: heading
-  label: Pages
 - type: directory
   path: pages
   label: Pages
@@ -22,8 +18,6 @@ sections:
   match: "**/*"
   templates:
   - page
-- type: heading
-  label: Projects
 - type: directory
   path: projects
   label: Projects
